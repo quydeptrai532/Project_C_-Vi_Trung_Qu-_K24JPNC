@@ -27,10 +27,12 @@ int main() {
                             displayAllStudents();
                             break;
                         case 3:
+                        	displayAllStudents();
                             editStudent();
                             saveDataToFile();
                             break;
                         case 4:
+                        	displayAllStudents();
                             deleteStudent();
                             saveDataToFile();
                             break;
@@ -45,6 +47,7 @@ int main() {
                             saveTeacherDataToFile();
                             break;
                         case 8:
+                        	displayAllTeachers();
                             deleteTeacher();
                             saveTeacherDataToFile();
                             break;
@@ -56,6 +59,7 @@ int main() {
                             displayAllTeachers();
                             break;
                         case 11:
+                        	displayAllTeachers();
                             editTeacher();
                             saveTeacherDataToFile();
                             break;
@@ -82,12 +86,15 @@ int main() {
                             break;
                         case 3:
                             sortStudentByName();
+                            displayAllStudents();
                             break;
                         case 4:
+                        	displayAllStudents();
                             editStudent();
                             saveDataToFile();
                             break;
                         case 5:
+                        	displayAllStudents();
                             deleteStudent();
                             saveDataToFile();
                             break;
