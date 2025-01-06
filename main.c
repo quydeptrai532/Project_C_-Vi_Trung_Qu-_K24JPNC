@@ -40,7 +40,11 @@ int main() {
                             searchStudentByName();
                             break;
                         case 6:
+                        	printf("Befor sort\n");
+                        	displayAllStudents();
                             sortStudentByName();
+                            printf("After sort\n");
+                            displayAllStudents();
                             break;
                         case 7:
                             addTeacher();
@@ -55,7 +59,10 @@ int main() {
                             displayAllTeachers();
                             break;
                         case 10:
+                        	printf("Befor sort\n");
+                        	displayAllTeachers();
                             sortTeacherByName();
+                            printf("After sort\n");
                             displayAllTeachers();
                             break;
                         case 11:
@@ -85,7 +92,10 @@ int main() {
                             searchStudentByName();
                             break;
                         case 3:
+                        	printf("Befor sort\n");
+                        	displayAllStudents();
                             sortStudentByName();
+                            printf("After sort\n");
                             displayAllStudents();
                             break;
                         case 4:
